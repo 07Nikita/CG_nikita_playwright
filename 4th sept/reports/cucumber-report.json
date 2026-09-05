@@ -1,0 +1,625 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "student-registration-form;register-a-new-student-successfully",
+        "keyword": "Scenario Outline",
+        "line": 20,
+        "name": "Register a new student successfully",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1974228200
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 969408700
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User launches the student registration application",
+            "match": {
+              "location": "features\\stepDefinitions\\loginSteps.ts:54"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 48915899
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User enters first name as \"Nikita\"",
+            "match": {
+              "location": "features\\stepDefinitions\\loginSteps.ts:60"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 25634900
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "User enters email as \"nikita@gmail.com\"",
+            "match": {
+              "location": "features\\stepDefinitions\\loginSteps.ts:65"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 331370200
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User selects gender as \"Female\"",
+            "match": {
+              "location": "features\\stepDefinitions\\loginSteps.ts:70"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 18104900
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User enters mobile number as \"9876543210\"",
+            "match": {
+              "location": "features\\stepDefinitions\\loginSteps.ts:75"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 15861299
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "User enters date of birth",
+            "match": {
+              "location": "features\\stepDefinitions\\loginSteps.ts:80"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 19835299
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User enters subject as \"Maths\"",
+            "match": {
+              "location": "features\\stepDefinitions\\loginSteps.ts:85"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 58018599
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "User selects hobby as \"Reading\"",
+            "match": {
+              "location": "features\\stepDefinitions\\loginSteps.ts:90"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 13915699
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "User verifies picture upload control is enabled",
+            "match": {
+              "location": "features\\stepDefinitions\\loginSteps.ts:95"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 13705600
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "User enters address as \"Bangalore\"",
+            "match": {
+              "location": "features\\stepDefinitions\\loginSteps.ts:100"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 14769000
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "User selects state as \"NCR\"",
+            "match": {
+              "location": "features\\stepDefinitions\\loginSteps.ts:105"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 12123499
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "User selects city as \"Delhi\"",
+            "match": {
+              "location": "features\\stepDefinitions\\loginSteps.ts:110"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 6244799
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "Submit button should be enabled",
+            "match": {
+              "location": "features\\stepDefinitions\\loginSteps.ts:115"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 466490000
+            },
+            "keyword": "After",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1994899
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "student-registration-form;register-a-new-student-successfully",
+        "keyword": "Scenario Outline",
+        "line": 21,
+        "name": "Register a new student successfully",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1595368099
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1725306700
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User launches the student registration application",
+            "match": {
+              "location": "features\\stepDefinitions\\loginSteps.ts:54"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 41008299
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User enters first name as \"Meena\"",
+            "match": {
+              "location": "features\\stepDefinitions\\loginSteps.ts:60"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 27499100
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "User enters email as \"meena@gmail.com\"",
+            "match": {
+              "location": "features\\stepDefinitions\\loginSteps.ts:65"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 294522200
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User selects gender as \"Female\"",
+            "match": {
+              "location": "features\\stepDefinitions\\loginSteps.ts:70"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 14137299
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User enters mobile number as \"9876543211\"",
+            "match": {
+              "location": "features\\stepDefinitions\\loginSteps.ts:75"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 9753399
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "User enters date of birth",
+            "match": {
+              "location": "features\\stepDefinitions\\loginSteps.ts:80"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 13409700
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User enters subject as \"English\"",
+            "match": {
+              "location": "features\\stepDefinitions\\loginSteps.ts:85"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 49496499
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "User selects hobby as \"Sports\"",
+            "match": {
+              "location": "features\\stepDefinitions\\loginSteps.ts:90"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 5174500
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "User verifies picture upload control is enabled",
+            "match": {
+              "location": "features\\stepDefinitions\\loginSteps.ts:95"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 9558800
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "User enters address as \"Chennai\"",
+            "match": {
+              "location": "features\\stepDefinitions\\loginSteps.ts:100"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 10192599
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "User selects state as \"NCR\"",
+            "match": {
+              "location": "features\\stepDefinitions\\loginSteps.ts:105"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 7569800
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "User selects city as \"Delhi\"",
+            "match": {
+              "location": "features\\stepDefinitions\\loginSteps.ts:110"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 5974500
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "Submit button should be enabled",
+            "match": {
+              "location": "features\\stepDefinitions\\loginSteps.ts:115"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 435071100
+            },
+            "keyword": "After",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1099399
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "student-registration-form;register-a-new-student-successfully",
+        "keyword": "Scenario Outline",
+        "line": 22,
+        "name": "Register a new student successfully",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1848188500
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1718711099
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User launches the student registration application",
+            "match": {
+              "location": "features\\stepDefinitions\\loginSteps.ts:54"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 40617899
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User enters first name as \"John\"",
+            "match": {
+              "location": "features\\stepDefinitions\\loginSteps.ts:60"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 16662299
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "User enters email as \"john@gmail.com\"",
+            "match": {
+              "location": "features\\stepDefinitions\\loginSteps.ts:65"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 298857500
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User selects gender as \"Male\"",
+            "match": {
+              "location": "features\\stepDefinitions\\loginSteps.ts:70"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 12050999
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User enters mobile number as \"9876543212\"",
+            "match": {
+              "location": "features\\stepDefinitions\\loginSteps.ts:75"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 15205199
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "User enters date of birth",
+            "match": {
+              "location": "features\\stepDefinitions\\loginSteps.ts:80"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 13206400
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User enters subject as \"Physics\"",
+            "match": {
+              "location": "features\\stepDefinitions\\loginSteps.ts:85"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 37702300
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "User selects hobby as \"Music\"",
+            "match": {
+              "location": "features\\stepDefinitions\\loginSteps.ts:90"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4537000
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "User verifies picture upload control is enabled",
+            "match": {
+              "location": "features\\stepDefinitions\\loginSteps.ts:95"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 11246800
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "User enters address as \"Mumbai\"",
+            "match": {
+              "location": "features\\stepDefinitions\\loginSteps.ts:100"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 13204099
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "User selects state as \"NCR\"",
+            "match": {
+              "location": "features\\stepDefinitions\\loginSteps.ts:105"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 6820700
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "User selects city as \"Delhi\"",
+            "match": {
+              "location": "features\\stepDefinitions\\loginSteps.ts:110"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 5582599
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "Submit button should be enabled",
+            "match": {
+              "location": "features\\stepDefinitions\\loginSteps.ts:115"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 372331200
+            },
+            "keyword": "After",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1035600
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "student-registration-form",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Student Registration Form",
+    "tags": [],
+    "uri": "features\\student.feature"
+  }
+]
