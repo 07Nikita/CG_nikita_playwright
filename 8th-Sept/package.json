@@ -1,0 +1,28 @@
+{
+  "name": "test-agent1",
+  "version": "1.0.0",
+  "description": "Playwright TypeScript SauceDemo automation framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:chromium": "playwright test --project=chromium",
+    "test:purchase": "playwright test tests/purchase/purchase-flow.spec.ts",
+    "report:html": "playwright show-report reports/playwright-report",
+    "report:allure": "allure generate reports/allure-results --clean -o reports/allure-report && allure open reports/allure-report",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.4.1",
+    "allure-commandline": "^2.43.0",
+    "allure-playwright": "^3.12.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2",
+    "winston": "^3.17.0"
+  }
+}

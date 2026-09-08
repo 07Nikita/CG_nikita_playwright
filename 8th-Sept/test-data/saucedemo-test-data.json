@@ -1,0 +1,10 @@
+{
+  "LoginData": [
+    {"testCaseId":"LOGIN-001","execute":true,"scenarioType":"Positive","username":"standard_user","password":"secret_sauce","expectedLoginResult":"Success","expectedError":""},
+    {"testCaseId":"LOGIN-002","execute":true,"scenarioType":"Negative","username":"invalid_user","password":"secret_sauce","expectedLoginResult":"Error","expectedError":"Username and password do not match any user in this service"},
+    {"testCaseId":"LOGIN-003","execute":true,"scenarioType":"Negative","username":"locked_out_user","password":"secret_sauce","expectedLoginResult":"Error","expectedError":"Sorry, this user has been locked out."}
+  ],
+  "PurchaseData": [
+    {"testCaseId":"PURCHASE-001","execute":true,"scenarioType":"Positive","username":"standard_user","password":"secret_sauce","expectedLoginResult":"Success","expectedError":"","productName":"Sauce Labs Backpack","expectedUnitPrice":29.99,"expectedSubtotal":29.99,"expectedTax":2.4,"expectedTotal":32.39,"firstName":"Nikita","lastName":"Meena","postalCode":"12345","expectedCheckoutResult":"Success","expectedCheckoutError":""}
+  ]
+}
